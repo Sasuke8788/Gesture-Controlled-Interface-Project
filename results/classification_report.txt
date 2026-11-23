@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+   OPEN_PALM       0.98      0.66      0.79       299
+        FIST       0.68      0.97      0.80       135
+   THUMBS_UP       1.00      1.00      1.00       145
+       PEACE       0.99      0.95      0.97        91
+    POINTING       0.84      0.91      0.87       149
+  NO_GESTURE       0.51      0.65      0.57       114
+
+    accuracy                           0.82       933
+   macro avg       0.83      0.86      0.83       933
+weighted avg       0.86      0.82      0.83       933

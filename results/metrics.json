@@ -1,0 +1,143 @@
+{
+  "trained_at": "2026-10-21T04:06:14",
+  "dataset_fingerprint": "3cfa004abe45",
+  "dataset_path": "C:\\Users\\ankit\\gesture_controlled_interface\\data\\gesture_samples.csv",
+  "rows_clean": 3301,
+  "rows_raw": 3301,
+  "dropped_invalid": 0,
+  "dropped_duplicates": 0,
+  "class_counts": {
+    "OPEN_PALM": 1029,
+    "POINTING": 528,
+    "THUMBS_UP": 516,
+    "FIST": 483,
+    "NO_GESTURE": 411,
+    "PEACE": 334
+  },
+  "n_users": 1,
+  "n_sessions": 2,
+  "split_strategy": "blocked_time",
+  "split_notes": "Only one user/session available: blocked chronological split per class with a 10-sample gap. Optimistic: same person, same session.",
+  "preliminary": true,
+  "n_train": 2308,
+  "n_test": 933,
+  "test_class_counts": {
+    "OPEN_PALM": 299,
+    "FIST": 135,
+    "THUMBS_UP": 145,
+    "PEACE": 91,
+    "POINTING": 149,
+    "NO_GESTURE": 114
+  },
+  "seed": 42,
+  "test_size": 0.3,
+  "n_estimators": 200,
+  "deployed_model_refit_on_all_data": false,
+  "feature_schema_version": 1,
+  "n_features": 88,
+  "metrics_note": "PRELIMINARY: single user/session; metrics are optimistic.",
+  "model_comparison": null,
+  "accuracy": 0.8242229367631297,
+  "per_class": {
+    "OPEN_PALM": {
+      "precision": 0.9753694581280788,
+      "recall": 0.6622073578595318,
+      "f1": 0.7888446215139442,
+      "support": 299
+    },
+    "FIST": {
+      "precision": 0.6822916666666666,
+      "recall": 0.9703703703703703,
+      "f1": 0.8012232415902141,
+      "support": 135
+    },
+    "THUMBS_UP": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 145
+    },
+    "PEACE": {
+      "precision": 0.9885057471264368,
+      "recall": 0.945054945054945,
+      "f1": 0.9662921348314607,
+      "support": 91
+    },
+    "POINTING": {
+      "precision": 0.84375,
+      "recall": 0.9060402684563759,
+      "f1": 0.8737864077669902,
+      "support": 149
+    },
+    "NO_GESTURE": {
+      "precision": 0.5068493150684932,
+      "recall": 0.6491228070175439,
+      "f1": 0.5692307692307692,
+      "support": 114
+    }
+  },
+  "macro_precision": 0.832794364498279,
+  "macro_recall": 0.8554659581264611,
+  "macro_f1": 0.833229529155563,
+  "weighted_precision": 0.8598053996641044,
+  "weighted_recall": 0.8242229367631297,
+  "weighted_f1": 0.8274906175419082,
+  "confusion_matrix": [
+    [
+      198,
+      34,
+      0,
+      0,
+      8,
+      59
+    ],
+    [
+      0,
+      131,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      145,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      86,
+      5,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      135,
+      13
+    ],
+    [
+      5,
+      26,
+      0,
+      1,
+      8,
+      74
+    ]
+  ],
+  "labels": [
+    "OPEN_PALM",
+    "FIST",
+    "THUMBS_UP",
+    "PEACE",
+    "POINTING",
+    "NO_GESTURE"
+  ]
+}
