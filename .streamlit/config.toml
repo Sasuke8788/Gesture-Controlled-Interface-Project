@@ -6,4 +6,6 @@ primaryColor = "#3b82f6"
 gatherUsageStats = false
 
 [server]
-headless = false
+headless = true
+address = "0.0.0.0"
+port = 8501
