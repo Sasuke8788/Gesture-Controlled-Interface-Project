@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/*.csv
+models/*.joblib
+models/*.task
+results/*
+!data/.gitkeep
+!models/.gitkeep
+!results/.gitkeep
